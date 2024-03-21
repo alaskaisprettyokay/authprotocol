@@ -1,6 +1,6 @@
 import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 
-export const headerData = {
+/*export const headerData = {
   links: [
     {
       text: 'Homes',
@@ -22,7 +22,7 @@ export const headerData = {
           href: getPermalink('/homes/personal'),
         },
       ],
-    },
+      },
     {
       text: 'Pages',
       links: [
@@ -181,3 +181,4 @@ export const footerData = {
     Made by <a class="text-blue-600 underline dark:text-muted" href="https://onwidget.com/"> onWidget</a> · All rights reserved.
   `,
 };
+*/
