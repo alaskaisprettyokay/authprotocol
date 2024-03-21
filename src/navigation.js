@@ -120,7 +120,7 @@ export const headerData = {
 
 export const footerData = {
   links: [
-    {
+  /*  {
       title: 'Product',
       links: [
         { text: 'Features', href: '#' },
@@ -163,7 +163,7 @@ export const footerData = {
         { text: 'Social Impact', href: '#' },
         { text: 'Shop', href: '#' },
       ],
-    },
+    },*/
   ],
   secondaryLinks: [
     { text: 'Terms', href: getPermalink('/terms') },
