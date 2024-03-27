@@ -45,10 +45,32 @@ const metadata = {
     </Fragment>
   </Hero>
 
-  <!-- Note Widget ******************* -->
+  <!-- Main Widget ******************* -->
+  <Hero>
+    <Fragment slot="title">
+      <span class="hidden xl:inline"> What is the Auth Protocol?</span>
+    </Fragment>
+    <Fragment slot="subtitle">
+    <span class="text-accent dark:text-white highlight">
+        <strong>What is the Auth Protocol?</strong><br>
+        Auth protocol is a decentralized authentication protocol utilizing a new encryption primitive known as Signature-based Witness Encryption (SWE). This primitive uses lightweight methods to mutually observe the encryption of any discreet packet to be decrypted at a later time based off of any desired pre-conditions.<br><br>
+        
+        <strong>Advantages of the Auth Protocol</strong><br>
+        The benefits of this method as an alternative to other currently used methods EG: Multi-process computation (MPC) and homomorphic encryption (HE), is that it scales linearly, and does not require the original witness to function as nodes for decryption.<br><br>
+        
+        <strong>Challenges with Current Approaches</strong><br>
+        The current issues with the current approaches are scaling, and centralization.<br><br>
+        
+        In the case of MPC systems such as Lit protocol, are that the nodes which function as the authentication network are required to be online, and as in its current state are a list of nodes which are designated by the originating network. This is a closed infrastructure, so within its economic model does not adhere to open source protocol ethos. On top of this, the work required by the network as the usage grows is not linear, and in theory runs in scaling issues.<br><br>
+        
+        In the case of HE, the computation required to do homomorphic transforms for discern content in the encrypted packet is also computationally excessive and not viable for heavily utilized data at large scale.<br><br>
+        
+        <strong>Innovations of Auth Protocol Using SWE</strong><br>
+        Auth protocol using SWE is agnostic, does not require the same network uptime as the alternatives, and provides other benefits due to its design. The original SWE paper, the Mcfly paper referenced in our lite paper, was a theoretical for time delay decryption. This allows for scientific research and privacy, as well as benefits for journalistic reporting. Another added benefit is the potential for a protocol of this nature to greatly assist with cross-blockchain transactions when using a third party authentication authority to manage keys and transactions.
+    </span>
+</Fragment>
 
-  <Note />
-
+  </Hero>
   <!-- Features Widget *************** -->
 
   <Features
@@ -136,6 +158,8 @@ const metadata = {
 
   
   <!-- Steps Widget ****************** -->
+
+
 
   <!-- CallToAction Widget *********** -->
 
